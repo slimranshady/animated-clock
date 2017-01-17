@@ -20,6 +20,7 @@ html {
 
 .hand {
   width: 14px;
+  position: absolute;
 }
 
 .hand-hour {
@@ -43,7 +44,7 @@ html {
 @keyframes spin {
 
   from {
-  transform: rotate(0deg);
+    transform: rotate(0deg);
   }
 
   to {
